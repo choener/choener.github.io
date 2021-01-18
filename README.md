@@ -1,8 +1,4 @@
-# choener.github.io
-Homepage Uni Jena
+# Höner-Lab
 
+My lab moves to Jena, and my homepage will soon be moving here.
 
-
-#### Pictures
-
-- sized width=447, height=559
