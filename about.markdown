@@ -6,8 +6,6 @@ permalink: /about/
 
 Postal Address
 
-*(Group Member Name)*
-<br>
 Bioinformatics/High-Throughput Analysis
 <br>
 Faculty of Mathematics and Computer Science
