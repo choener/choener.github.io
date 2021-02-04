@@ -1,11 +1,11 @@
 
 #### Prepare jekyll under NixOS
 
-    Bundler: nix-shell -p bundler --run "bundle install --gemfile=Gemfile --path vendor/cache"
+    nix-shell -p bundler --run "bundle install --gemfile=Gemfile --path vendor/cache"
 
 #### Run jekyll under NixOS
 
-    Bundler: nix-shell -p bundler --run "bundle exec jekyll serve"
+    nix-shell -p bundler --run "bundle exec jekyll serve --livereload --drafts"
 
 #### Source highlighting
 
