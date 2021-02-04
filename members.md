@@ -10,6 +10,11 @@ permalink: /members/
 
 - Formal languages
 - Bayesian statistics
+- Machine learning
+- Automatic differentiation with applications in statistics and machine learning
+- RNA extended and tertiary structure
+- Homology in RNA and proteins
+- Functional programming and program fusion
 
 
 <br>
@@ -18,7 +23,7 @@ permalink: /members/
 
 
 <br>
-# Carmen Bruckmann (Leipzig)
+# [Carmen Bruckmann (Leipzig)](https://www.bioinf.uni-leipzig.de/~carmen/)
 together with [Susann Müller](https://www.ufz.de/index.php?en=39079) at the Helmholtz Centre for
 Environmental Research
 
@@ -26,15 +31,19 @@ Environmental Research
 src="https://www.bioinf.uni-leipzig.de/~carmen/image.php?hash=2236265081"
 width="200" title="Carmen Bruckmann" />
 
-**PhD Topic:**
+**PhD Topics:**
+- Computational flow cytometry
+- Graph Theory
 
 
 
 <br>
-# Sebastian Krautwurst (Jena)
+# [Sebastian Krautwurst (Jena)](https://www.rna.uni-jena.de/members/sebastian-krautwurst/)
 together with [Manja Marz](https://www.rna.uni-jena.de/)
 
-**PhD Topic:**
+**PhD Topics:**
+- Machine Learning
+- RNA modifications
 
 
 <br>
