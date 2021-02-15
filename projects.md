@@ -57,9 +57,8 @@ grammars,  scoring (encoded as an algebra), and choice rule. Our grammars can pa
 of input structures, including strings, trees, sets, and stochastic models.
 
 In this example, taken from [Algebraic dynamic programming on trees, Berkemer et al,
-2017](https://www.mdpi.com/1999-4893/10/4/135)
+2017](https://www.mdpi.com/1999-4893/10/4/135) we see an (affine) tree alignment program in action,
+aligning a german to an english sentence.
 
 <img src="adpfusion/adp-trees.png" width="700" title="ADP on Trees"/>
-
-we see an (affine) tree alignment program in action, aligning a german to an english sentence.
 
