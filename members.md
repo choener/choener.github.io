@@ -41,6 +41,10 @@ width="200" title="Carmen Bruckmann" />
 # [Sebastian Krautwurst (Jena)](https://www.rna.uni-jena.de/members/sebastian-krautwurst/)
 together with [Manja Marz](https://www.rna.uni-jena.de/)
 
+<img src="https://i0.wp.com/www.rna.uni-jena.de/wp-content/uploads/2018/10/sebastian-krautwurst.jpg"
+width="200" title="Sebastian Krautwurst" />
+
+
 **PhD Topics:**
 - Machine Learning
 - RNA modifications
