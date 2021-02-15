@@ -4,9 +4,10 @@ title: Projects
 permalink: /projects/
 ---
 
-[flowEMMi](#flowemmi)
+- [flowEMMi](#flowemmi)
+- [ADPfusion](#adpfusion)
 
-### flowEMMi
+## flowEMMi
 
 Flow cytometry (FCM) is widely used in health research, diagnostics, biotechnology and environmental
 microbiology. The technology measures optical properties of millions of cells, which makes FCM
@@ -36,4 +37,29 @@ only basic measurements can be provided and cells have to be classified (gated) 
 data only.
 
 
+
+## ADPfusion
+
+**ADPfusion** and its related developments provides a framework for dynamic programming (DP) that
+combines a high level of expressiveness with competitive performance of the resulting dynamic
+programming algorithms. ADPfusion make liberal use of program fusion to compile programs written in
+its shallow domain-specific language into efficient program code.
+ADPfusion is based on well-founded theoretical developments that help the user to compose their DP
+programs in an algorithmically sound way from more simple building blocks.
+
+We can tackle problems from diverse fields such as sequence alignment, RNA folding, hidden Markov
+models (HMMs), and scoring of phylogenetic trees. We provide optimal, and suboptimal solutions,
+stochastic sampling, backtracking, and marginalization or ensemble properties (eg. a posteriori
+probabilities).
+
+ADPfusion separates state space traversal via linear, context-free, and multiple-context-free
+grammars,  scoring (encoded as an algebra), and choice rule. Our grammars can parse a wide variety
+of input structures, including strings, trees, sets, and stochastic models.
+
+In this example, taken from [Algebraic dynamic programming on trees, Berkemer et al,
+20xy](https://www.mdpi.com/1999-4893/10/4/135)
+
+<img src="adpfusion/adp-trees.png" width="700" title="ADP on Trees"/>
+
+we see an (affine) tree alignment program in action, aligning a german to an english sentence.
 
