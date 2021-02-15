@@ -33,6 +33,7 @@ width="200" title="Carmen Bruckmann" />
 
 **PhD Topics:**
 - Computational flow cytometry
+- [flowEMMi](/projects/#flowemmi)
 - Graph Theory
 
 
