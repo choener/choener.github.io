@@ -4,5 +4,5 @@ title: Publications
 permalink: /publications/
 ---
 
-{% include test.html %}
+{% include pub-choener.html %}
 
