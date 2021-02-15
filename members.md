@@ -57,5 +57,7 @@ width="200" title="Sebastian Krautwurst" />
 <br>
 # Dustyn Eggers (Leipzig)
 
-**MSc Topic:** RNA secondary structure with Pseudoknots
+**MSc Topic:**
+- RNA secondary structure with Pseudoknots
+- [ADPfusion](/projects/#adpfusion)
 
