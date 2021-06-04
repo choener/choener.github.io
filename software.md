@@ -45,7 +45,7 @@ These libraries provide low-level bioinformatics-related functionality.
   - ![github action: master](https://github.com/choener/BiobaseTurner/actions/workflows/action.yml/badge.svg)
 
 - [BiobaseTypes](https://github.com/choener/BiobaseTypes)
-  - ![github action: master](https://github.com/choener/BiobaseTypes/actions/workflows/action.yml/badge.svg)
+  - ![github action: master](https://github.com/choener/BiobaseTypes/actions/workflows/ci.yml/badge.svg)
 
 - [BiobaseXNA](https://github.com/choener/BiobaseXNA)
   - ![github action: master](https://github.com/choener/BiobaseXNA/actions/workflows/action.yml/badge.svg)
