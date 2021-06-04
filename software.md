@@ -20,7 +20,8 @@ Generalized algebraic dynamic programming.
   - ![github action: master](https://github.com/choener/bimaps/actions/workflows/action.yml/badge.svg)
 
 - [DPutils](https://github.com/choener/DPutils)
-  - ![github action: master](https://github.com/choener/DPutils/actions/workflows/action.yml/badge.svg)
+  - ![github action: CI](https://github.com/choener/DPutils/actions/workflows/ci.yml/badge.svg)
+    ![github action: hackage](https://github.com/choener/DPutils/actions/workflows/hackage.yml/badge.svg)
 
 - [ForestStructures](https://github.com/choener/ForestStructures)
   - ![github action: master](https://github.com/choener/ForestStructures/actions/workflows/action.yml/badge.svg)
@@ -45,7 +46,8 @@ These libraries provide low-level bioinformatics-related functionality.
   - ![github action: master](https://github.com/choener/BiobaseTurner/actions/workflows/action.yml/badge.svg)
 
 - [BiobaseTypes](https://github.com/choener/BiobaseTypes)
-  - ![github action: master](https://github.com/choener/BiobaseTypes/actions/workflows/ci.yml/badge.svg)
+  - ![github action: CI](https://github.com/choener/BiobaseTypes/actions/workflows/ci.yml/badge.svg)
+    ![github action: hackage](https://github.com/choener/BiobaseTypes/actions/workflows/hackage.yml/badge.svg)
 
 - [BiobaseXNA](https://github.com/choener/BiobaseXNA)
   - ![github action: master](https://github.com/choener/BiobaseXNA/actions/workflows/action.yml/badge.svg)
@@ -55,5 +57,6 @@ These libraries provide low-level bioinformatics-related functionality.
 Functionality that spans multiple fields.
 
 - [SciBaseTypes](https://github.com/choener/SciBaseTypes)
-  - ![github action: master](https://github.com/choener/SciBaseTypes/actions/workflows/action.yml/badge.svg)
+  - ![github action: CI](https://github.com/choener/SciBaseTypes/actions/workflows/ci.yml/badge.svg)
+    ![github action: hackage](https://github.com/choener/SciBaseTypes/actions/workflows/hackage.yml/badge.svg)
 
