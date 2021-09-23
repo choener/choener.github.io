@@ -62,3 +62,21 @@ aligning a german to an english sentence.
 
 <img src="adpfusion/adp-trees.png" width="700" title="ADP on Trees"/>
 
+
+
+## Inferring the (structural) past
+
+Inferring the structural evolution of a non-coding RNA is fraught with complications due to the
+almost complete absense of "archeologically conserved" structure, with the notable exception of
+finds like Denisovan where genomic sequences could be extracted. In most cases, one has to begin
+with only a conserved structure in related species and the extant structure of interest.
+
+We are interested in exact and approximate algorithms that try to recover most likely evolutionary
+pathways and their structural changes. In [Walter Costa et al, 2018]() we developed an algorithm
+that calculates all possible pathways of structural change up to one backmutation and provides
+evidence for most likely initial, and terminal mutations, as well as pairs coupled of mutations, and
+relative likelihood of back mutations on certain positions.
+
+This allows to fully explore these pathways and compare them with the (sparse) evidence retrieved
+from archeological data such as in Denisovan. We can use this algorithm for non-coding sequences
+that are under repid evolutionary changes compared to other genes.
