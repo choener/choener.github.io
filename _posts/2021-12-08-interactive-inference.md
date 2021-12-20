@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Seven fully-funded PhD positions in the research training group "Interactive Inference" at Friedrich Schiller University Jena"
+title:  "Seven fully-funded PhD positions in the research training group *Interactive Inference* at Friedrich Schiller University Jena"
 date:   2021-12-08 10:00:00 +0100
 categories: lab
 ---
