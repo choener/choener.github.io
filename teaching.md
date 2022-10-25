@@ -2,11 +2,24 @@
 layout: page
 title: Teaching
 permalink: /teaching/
+exclude: true
 ---
 
 - V: Vorlesung
 - P: Praktikum
 - S: Seminar
+- U: Übung
+
+# In Jena
+
+#### WS 2022/23
+
+- [ASQ Haskell](/teaching/Haskell2022/)
+- [Berechenbarkeit]() (V+U)
+
+#### WS 2021/22
+
+- [Berechenbarkeit]() (V+U)
 
 # In Leipzig (until January 2021)
 

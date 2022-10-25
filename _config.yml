@@ -28,6 +28,14 @@ url: "http://choener.github.io" # the base hostname & protocol for your site, e.
 twitter_username: 
 github_username:  choener
 
+header_pages:
+  - index.md
+  - members.md
+  - projects.md
+  - publications.md
+  - software.md
+  - teaching.md
+
 # Build settings
 theme: minima
 plugins:
