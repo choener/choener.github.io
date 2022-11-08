@@ -12,6 +12,7 @@ permalink: /teaching/Haskell2022/
 |-|-|-|
 | 2022-10-20 | [Slides](01.pdf) | [Haskell](01.hs) |
 | 2022-10-27 | [Slides](02.pdf) | [Haskell](02.hs) |
+| 2022-10-27 | [Slides](03.pdf) | [Haskell](03.hs) |
 
 Bitte beachtet das die Unterlagen nur begleitend zur VL sind, ich erkläre viel an der Tafel und am Code, Selbststudium mit den Folien ist schwer bis unmöglich
 
