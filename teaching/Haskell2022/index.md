@@ -14,8 +14,20 @@ permalink: /teaching/Haskell2022/
 | 2022-10-27 | [Slides](02.pdf) | [Haskell](02.hs) | |
 | 2022-11-03 | [Slides](03.pdf) | [Haskell](03.hs) | |
 | 2022-11-10 | [Slides](04.pdf) | [Haskell](04.hs) | [Video Countdown, Minute 26](https://youtu.be/isyYDxxXMjk?t=1560) |
+| 2022-11-17 | [Slides](05.pdf) | [Haskell](05.hs) | |
 
 Bitte beachtet das die Unterlagen nur begleitend zur VL sind, ich erkläre viel an der Tafel und am Code, Selbststudium mit den Folien ist schwer bis unmöglich
+
+## "Hausaufgabe" VL 05 -> VL 06
+
+- Versuchen sie zur naechsten VL eine Funktion *showExpr :: Expr -> String* zu schreiben
+- Diese sollte einen korrekten Klammerstring erzeugen
+- Eingabe zB ``App Add (Num 1) (Num 2)``
+- Ausgabe "1+2"
+- Wenn man die Ausgaben in ``token2Expr . tokenize`` hinein steckt dann sollte wieder die Eingabe
+  dabei heraus kommen
+- Das bedeutet das ``id == token2Expr . tokenize . showExpr``, also ``Expr`` die man erst mittels
+  ``showExpr`` anzeigt und danach parsed genau wieder die Expression ergeben sollten
 
 # Wo?
 
