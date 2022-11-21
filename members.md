@@ -52,6 +52,20 @@ width="200" title="Sebastian Krautwurst" />
 
 
 <br>
+# [Jannes Spangenberg(Jena)](https://www.rna.uni-jena.de/members/jannes-spangenberg/)
+together with [Manja Marz](https://www.rna.uni-jena.de/)
+
+<img src="https://i0.wp.com/www.rna.uni-jena.de/wp-content/uploads/2021/10/jannes-spangenberg.jpg"
+width="200" title="Sebastian Krautwurst" />
+
+
+**PhD Topics:**
+- Machine Learning
+- RNA modifications
+- RNA Viruses
+
+
+<br>
 ## MSc Students
 
 <br>
