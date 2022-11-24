@@ -18,6 +18,20 @@ permalink: /teaching/Haskell2022/
 
 Bitte beachtet das die Unterlagen nur begleitend zur VL sind, ich erkläre viel an der Tafel und am Code, Selbststudium mit den Folien ist schwer bis unmöglich
 
+## Kategorientheorie und Haskell
+
+Die folgenden Links sind explizit *nicht* Teil der Vorlesung und koennen gerne ignoriert werden. Die
+Vorlesung soll primaer eine Einfuehrung in Haskell sein.
+
+[Kategorientheorie](https://de.wikipedia.org/wiki/Kategorientheorie) ist ein modernes Teilgebiet der
+Mathematik und dient der Beschreibung mathematischer Strukturen. Eine Begriffe aus der
+Kategorientheorie haben Eingang in den Wortschatz von Haskell gefunden.
+
+Wer wirklich Interesse an einem Einstieg in die Kategorientheorie und ihre Verbindung zum
+Programmieren hat, kann mit Bartosz Milewski beginnen:
+- <https://bartoszmilewski.com/2014/10/28/category-theory-for-programmers-the-preface/>
+- <https://github.com/hmemcpy/milewski-ctfp-pdf>
+
 ## "Hausaufgabe" VL 05 -> VL 06
 
 - Versuchen sie zur naechsten VL eine Funktion *showExpr :: Expr -> String* zu schreiben
