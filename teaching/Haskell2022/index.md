@@ -15,6 +15,7 @@ permalink: /teaching/Haskell2022/
 | 2022-11-03 | [Slides](03.pdf) | [Haskell](03.hs) | |
 | 2022-11-10 | [Slides](04.pdf) | [Haskell](04.hs) | [Video Countdown, Minute 26](https://youtu.be/isyYDxxXMjk?t=1560) |
 | 2022-11-17 | [Slides](05.pdf) | [Haskell](05.hs) | |
+| 2022-11-24 | [Slides](06.pdf) | [Haskell](06.hs) | |
 
 Bitte beachtet das die Unterlagen nur begleitend zur VL sind, ich erkläre viel an der Tafel und am Code, Selbststudium mit den Folien ist schwer bis unmöglich
 
