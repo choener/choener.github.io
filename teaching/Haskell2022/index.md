@@ -20,6 +20,11 @@ permalink: /teaching/Haskell2022/
 
 Bitte beachtet das die Unterlagen nur begleitend zur VL sind, ich erkläre viel an der Tafel und am Code, Selbststudium mit den Folien ist schwer bis unmöglich
 
+## Lernmaterial fuer Haskell
+
+- [Learn you a Haskell](http://learnyouahaskell.com/)
+  - easy to follow tutorial on programming with Haskell, in english
+
 ## Kategorientheorie und Haskell
 
 Die folgenden Links sind explizit *nicht* Teil der Vorlesung und koennen gerne ignoriert werden. Die
