@@ -20,6 +20,7 @@ permalink: /teaching/Haskell2022/
 | 2022-12-08 | [Slides](08.pdf) | [Haskell](08.hs) | [Parallel Fibonacci](fib.hs) |
 | 2022-12-15 | [Slides](09.pdf) | [Haskell](09.hs) | |
 | 2023-01-05 | [Slides](10.pdf) | [Haskell](10.hs) | die Haskell-Libraries 'mtl' und 'ansi-terminal' muessen installiert sein |
+| 2023-01-12 | [Slides](11.pdf) | [Haskell](11.hs) | [Arrays](Array.hs) |
 
 Bitte beachtet das die Unterlagen nur begleitend zur VL sind, ich erkläre viel an der Tafel und am Code, Selbststudium mit den Folien ist schwer bis unmöglich
 
