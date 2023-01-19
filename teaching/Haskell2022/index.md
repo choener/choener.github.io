@@ -4,6 +4,8 @@ title: "ASQ Funktionale Programmierung"
 date:   2022-10-25 10:00:00 +0100
 permalink: /teaching/Haskell2022/
 ---
+<!-- LTeX: language=de-DE -->
+
 
 # Unterlagen
 
@@ -19,20 +21,21 @@ permalink: /teaching/Haskell2022/
 | 2022-12-01 | [Slides](07.pdf) | [Haskell](07.hs) | [Option Monad](Monads.hs) |
 | 2022-12-08 | [Slides](08.pdf) | [Haskell](08.hs) | [Parallel Fibonacci](fib.hs) |
 | 2022-12-15 | [Slides](09.pdf) | [Haskell](09.hs) | |
-| 2023-01-05 | [Slides](10.pdf) | [Haskell](10.hs) | die Haskell-Libraries 'mtl' und 'ansi-terminal' muessen installiert sein |
+| 2023-01-05 | [Slides](10.pdf) | [Haskell](10.hs) | die Haskell-Libraries 'mtl' und 'ansi-terminal' müssen installiert sein |
 | 2023-01-12 | [Slides](11.pdf) | [Haskell](11.hs) | [Arrays](Array.hs) |
+| 2023-01-19 | [Slides](12.pdf) | [Haskell](Sudoku-0.1.0.0.tar.gz) | Haskell Download ist ein Projekt! |
 
-Bitte beachtet das die Unterlagen nur begleitend zur VL sind, ich erkläre viel an der Tafel und am Code, Selbststudium mit den Folien ist schwer bis unmöglich
+Bitte beachtet, dass die Unterlagen nur begleitend zur VL sind, ich erkläre viel an der Tafel und am Code, Selbststudium mit den Folien ist schwer bis unmöglich
 
-## Lernmaterial fuer Haskell
+## Lernmaterial für Haskell
 
 - [Learn you a Haskell](http://learnyouahaskell.com/)
   - easy to follow tutorial on programming with Haskell, in english
 
 ## Kategorientheorie und Haskell
 
-Die folgenden Links sind explizit *nicht* Teil der Vorlesung und koennen gerne ignoriert werden. Die
-Vorlesung soll primaer eine Einfuehrung in Haskell sein.
+Die folgenden Links sind explizit *nicht* Teil der Vorlesung und können gerne ignoriert werden. Die
+Vorlesung soll primär eine Einführung in Haskell sein.
 
 [Kategorientheorie](https://de.wikipedia.org/wiki/Kategorientheorie) ist ein modernes Teilgebiet der
 Mathematik und dient der Beschreibung mathematischer Strukturen. Eine Begriffe aus der
@@ -45,12 +48,12 @@ Programmieren hat, kann mit Bartosz Milewski beginnen:
 
 ## "Hausaufgabe" VL 05 -> VL 06
 
-- Versuchen sie zur naechsten VL eine Funktion *showExpr :: Expr -> String* zu schreiben
+- Versuchen sie zur nächsten VL eine Funktion *showExpr :: Expr -> String* zu schreiben
 - Diese sollte einen korrekten Klammerstring erzeugen
-- Eingabe zB ``App Add (Num 1) (Num 2)``
+- Eingabe z. B. ``App Add (Num 1) (Num 2)``
 - Ausgabe "1+2"
 - Wenn man die Ausgaben in ``token2Expr . tokenize`` hinein steckt dann sollte wieder die Eingabe
-  dabei heraus kommen
+  dabei herauskommen
 - Das bedeutet das ``id == token2Expr . tokenize . showExpr``, also ``Expr`` die man erst mittels
   ``showExpr`` anzeigt und danach parsed genau wieder die Expression ergeben sollten
 
