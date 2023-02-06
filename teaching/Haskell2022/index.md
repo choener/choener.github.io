@@ -25,6 +25,7 @@ permalink: /teaching/Haskell2022/
 | 2023-01-12 | [Slides](11.pdf) | [Haskell](11.hs) | [Arrays](Array.hs) |
 | 2023-01-19 | [Slides](12.pdf) | [Haskell](Sudoku-0.1.0.0.tar.gz) | Haskell Download ist ein Projekt! |
 | 2023-01-26 | [Slides](13.pdf) | [Haskell](13.hs) | Heute gab es eine grosse Menge Tafelbilder |
+| 2023-02-02 | [Slides](14.pdf) | [Haskell](14.hs) | |
 
 Bitte beachtet, dass die Unterlagen nur begleitend zur VL sind, ich erkläre viel an der Tafel und am Code, Selbststudium mit den Folien ist schwer bis unmöglich
 
