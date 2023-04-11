@@ -8,6 +8,7 @@ permalink: /test/
 <bibtex src="test.bib"></bibtex>
 <bibtex src="_bibliography/choener.bib"></bibtex>
 
+<div id="bibtex_display"></div>
 
 {% include pub-choener.html %}
 
