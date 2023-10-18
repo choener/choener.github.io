@@ -12,6 +12,10 @@ exclude: true
 
 # In Jena
 
+#### WS 2023/24
+
+- [ASQ Haskell](/teaching/Haskell2023/)
+
 #### WS 2022/23
 
 - [ASQ Haskell](/teaching/Haskell2022/)
