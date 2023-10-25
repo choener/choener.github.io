@@ -9,10 +9,11 @@ permalink: /teaching/Haskell2023/
 
 # Unterlagen
 
-|------------|------------------|------|-------|
-| Tag        | Slides           | Code | Notes |
-|------------|------------------|------|-------|
-| 2022-10-19 | [Slides](01.pdf) |      |       |
+|------------|------------------|-------|-------|
+| Tag        | Slides           | Code  | Notes |
+|------------|------------------|-------|-------|
+| 2022-10-19 | [Slides](01.pdf) |       |       |
+| 2022-10-26 | [Slides](02.pdf) | 02.hs |       |
 
 Bitte beachtet, dass die Unterlagen nur begleitend zur VL sind, ich erkläre viel an der Tafel und am Code, Selbststudium mit den Folien ist schwer bis unmöglich
 
