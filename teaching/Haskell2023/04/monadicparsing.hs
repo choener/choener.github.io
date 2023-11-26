@@ -476,3 +476,115 @@ sichereDivision = error "schreibe mich"
 -- 4) Zurück zum Parsen: wie kann man Parsing und Fehlerbehandlung verheiraten?
 
 
+
+-- * Beispiele aus der VL selbst
+
+-- | 'Age' wird durch @newtype@ zu einem komplett neuem Typ und dadurch kann man nicht mehr
+-- versehentlich 'Int' oder 'Weight' nutzen, wo 'Age' hin gehoert.
+--
+-- Durch das @deriving@ koennen wir Age trotzdem genauso nutzen als haetten wir einen Int.
+-- Zum Beispiel in der Addition: @Age 3 + Age 4@. Die 'Num' Instanz muessen wir nicht selbst
+-- schreiben.
+--
+-- @newtype@s sind fuer uns "kostenlos" im Programm. Und auch als Programmierer muessen wir nicht
+-- viel Arbeit leisten.
+
+newtype Age = Age { getAge :: Int }
+  deriving (Eq,Show,Num,Read) -- equivalent to [1]
+
+-- [1]
+-- instance Eq Age where
+--   Age a == Age b = a == b
+--
+-- instance Num Age where
+--   Age a + Age b = Age (a+b)
+
+-- | newtype fuer 'Weight'. in 'myAge' kann nicht versehentlich 'Age' oder 'Int' benutzt werden.
+
+newtype Weight = Weight Int
+
+-- | Kleine Testfunktion um zu zeigen, das wir mehr Typsicherheit haben.
+
+myAge :: Age -> Age -> Age
+myAge (Age a) (Age b) = Age (a + b)
+
+-- complicated = myAge (18 :: Age) (65 :: Weight)
+
+--instance Show Age where
+--  show (Age a) = "Age " ++ show a
+
+
+
+-- * "Functor" Beispiele
+
+-- | Erstelle Baum-typ mit freiem Parameter @a@. Binaerer Baum mit Blaettern ohne Inhalt und
+-- internen Knoten mit Inhalt und linkem + rechtem Teilbaum.
+
+data Tree a = Leaf | Node a (Tree a) (Tree a)
+  deriving (Show,Functor)
+
+-- | Haendische Instanz um ueber den "Inhalt" @a@ zu mappen. Man beachte das @f@ legal nur auf @a@
+-- angewandt werden kann und rekursiv alle @a@ bearbeiten muss.
+--
+-- Auch relevant ist, das wir die Struktur des Baumes nicht aendern sollten.
+
+mapTree :: (a->b) -> Tree a -> Tree b
+mapTree f Leaf = Leaf
+mapTree f (Node a l r) = Node (f a) (mapTree f l) (mapTree f r)
+
+-- | Zum zeigen, das auch @mapTree useless@ funktioniert und @IO Int@ actions nicht evaluiert im
+-- Baum abspeichert.
+
+useless :: Int -> IO Int
+useless k = do
+  print ("x", k)
+  return k
+
+-- | Haendische Instanz zum 'map' ueber Listen.
+--
+-- Vergleiche 'mapTree', 'mapList' und 'fmap' von 'Functor'.
+
+mapList :: forall a b . (a -> b) -> [a] -> [b]
+mapList f [] = []
+mapList f (a:as) = f a  : mapList f as
+
+-- whatever :: exists rng . m rng -- geht noch nicht, aber spaeter
+-- whatever = undefined
+
+-- | Sichere Division mit Behandlung von @x / 0@. Nutzung der 'Monad' Instanz von 'Maybe'.
+
+teileM :: Maybe Int -> Maybe Int
+teileM v = v >>= (\a -> if a == 0 then Nothing else pure (10 `div` a))
+
+-- | Manuelle Funktion die sicher ist beim Teilen durch 0.
+
+teileM' Nothing = Nothing
+teileM' (Just 0) = Nothing
+teileM' (Just k) = Just (10 `div` k)
+
+-- | Erlaubt es @10@ durch beliebig viele Zahlen zu teilen. Allerdings wird @10 / 0@ aus der Liste
+-- ausgefiltert. Es bleiben also nur "legale" Teilungen ueber.
+
+teileL :: [Int] -> [Int]
+teileL vs = vs >>= (\a -> if a == 0 then [] else pure (10 `div` a))
+
+-- | 'return' ist deutlich anders als in, zB, C. In C wuerde man erwarten das 'test' den Wert @4@
+-- zurueck gibt mit dem 1. return.
+-- Hier hat man eigenlich
+-- @
+-- test :: IO Int
+-- test = do
+--  ignoredA <- return 4
+--  ignoredB <- return 5
+--  let a = 1
+--      b = 2
+--  return (a+b)
+
+test :: IO Int
+test = do
+  return 4
+  return 5
+  let a = 1
+      b = 2
+  return (a+b)
+
