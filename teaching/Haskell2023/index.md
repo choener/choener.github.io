@@ -23,6 +23,7 @@ Die Videos zur Vorlesung finden sich jeweils hier:
 | 2023-11-16 | [Monadic Parsing](monadic-parsing.pdf)    | [Code - monadic](monadicparsing.hs)          | Vorlesungsvideos verfügbar                                                          |
 |            |                                           | [Hausaufgaben zum 23.](04/monadicparsing.hs) | Die Hausaufgaben finden sich ab Zeile 417 im Link links                             |
 | 2023-11-23 | [Monadic Parsing](04/monadic-parsing.pdf) | [Code](04/monadicparsing.hs)                 | "Deep dive" in Monaden, Parsing, eure Fragen, und die Lösungen zu den Hausaufgaben  |
+| 2023-11-30 | [Rush hour Intro](rushhour/rushhour.pdf)  |                                              | Einführung zum Spiel Rush hour. Video in der uni jena cloud                         |
 
 Bitte beachtet, dass die Unterlagen nur begleitend zur VL sind, ich erkläre viel an der Tafel und am Code, Selbststudium mit den Folien ist schwer bis unmöglich
 
