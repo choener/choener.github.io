@@ -27,6 +27,7 @@ Die Videos zur Vorlesung finden sich jeweils hier:
 | 2024-12-04 | [Rush hour hints](rushhour/hints.pdf)     |                                              | Hinweise zu Datenstrukturen die man in Rushhour nutzen kann                         |
 | 2024-12-04 | [Monad transformer](mtl.pdf)              | [Code](mtl.hs)                               | Monad transfomer Code und Slides. Video in der Uni Jena Cloud                       |
 | 2024-12-04 | [Typfamilien](families/families.pdf)      | [Code](families.hs)                          | Typfamilien und ein bischen Typlevel-Programmierung                                 |
+| 2024-12-07 |                                           | [Code](Combi.hs)                             | Minibeispiel zu den Funktionen ``(.)`` und ``($)`` zur Funktionskomposition         |
 
 Bitte beachtet, dass die Unterlagen nur begleitend zur VL sind, ich erkläre viel an der Tafel und am Code, Selbststudium mit den Folien ist schwer bis unmöglich
 
