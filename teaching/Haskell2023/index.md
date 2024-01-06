@@ -30,6 +30,7 @@ Die Videos zur Vorlesung finden sich jeweils hier:
 | 2023-12-07 |                                           | [Code](Combi.hs)                                         | Minibeispiel zu den Funktionen ``(.)`` und ``($)`` zur Funktionskomposition         |
 | 2024-01-03 |                                           | [Rushhour - Vorlesung](rushhour/rushhour-0.1.0.0.tar.gz) | Beginn der Rushhour-Implementation "live" in der Vorlesung                          |
 | 2024-01-03 |                                           | [Rushhour - Choener](rushhour/RushChoener.hs)            | Meine Implementation von rushhour                                                   |
+| 2024-01-06 | [Rekursion](recursion/09.pdf)             | [Rekursion](recursion/recursions.hs)                     | Video in der Cloud                                                                  |
 
 
 Bitte beachtet, dass die Unterlagen nur begleitend zur VL sind, ich erkläre viel an der Tafel und am Code, Selbststudium mit den Folien ist schwer bis unmöglich
