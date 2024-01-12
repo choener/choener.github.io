@@ -33,6 +33,19 @@ Die Videos zur Vorlesung finden sich jeweils hier:
 | 2024-01-06 | [Rekursion](recursion/09.pdf)             | [Rekursion](recursion/recursions.hs)                     | Video in der Cloud                                                                  |
 | 2024-01-18 | [Arrays](arrays/arrays.pdf)               | [Array](arrays/Array.hs)                                 | Kurz-Intro zu Haskell-Arrays, Video in der Cloud                                    |
 | 2024-01-18 | [Streams](streams/streams.pdf)            | [streams](streams/streams.hs)                            | Stream fusion, Video in der Cloud                                                   |
+| 2024-01-18 | Hausaufgabe ...                           |                                                          | Siehe unten zu "Hausaufgabe Streams"                                                |
+
+## 2024-01-18, Hausaufgabe Streams
+
+Unter [Data.List](https://hackage.haskell.org/package/base-4.19.0.0/docs/Data-List.html) finden sich die wichtigsten Funktionen auf Haskell-Listen.
+
+Folgende Funktionen sind interessant: ``(++), length, map, foldl', scanl', unfoldr, lookup, zip``.
+
+1. Versteht was jede einzelne Funktion tut. Basierend auf ihrem Typ, der Beschreibung, und dem jeweiligem Beispiel.
+2. Lest *nicht* den Source code, auch nicht den vom "vector" package.
+3. Implementiert die entsprechenden Funktionen basierend auf ``streams`` wie es oben zur Verfügung steht.
+
+Hinweis: der Constraint ``HasCallStack`` kann ignoriert werden.
 
 
 Bitte beachtet, dass die Unterlagen nur begleitend zur VL sind, ich erkläre viel an der Tafel und am Code, Selbststudium mit den Folien ist schwer bis unmöglich
