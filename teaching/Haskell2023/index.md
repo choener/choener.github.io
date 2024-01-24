@@ -34,6 +34,7 @@ Die Videos zur Vorlesung finden sich jeweils hier:
 | 2024-01-18 | [Arrays](arrays/arrays.pdf)               | [Array](arrays/Array.hs)                                 | Kurz-Intro zu Haskell-Arrays, Video in der Cloud                                    |
 | 2024-01-18 | [Streams](streams/streams.pdf)            | [streams](streams/streams.hs)                            | Stream fusion, Video in der Cloud                                                   |
 | 2024-01-18 | Hausaufgabe ...                           |                                                          | Siehe unten zu "Hausaufgabe Streams"                                                |
+| 2024-01-24 | [Lambda Calculus](lambda/lambda.pdf)      |                                                          | Tutorial Intro to Lambda Calculus: <https://arxiv.org/abs/1503.09060>               |
 
 ## 2024-01-18, Hausaufgabe Streams
 
